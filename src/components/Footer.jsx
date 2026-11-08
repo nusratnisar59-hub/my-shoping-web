@@ -1,5 +1,6 @@
+
 const Footer = () => {
-  return (
+    return (
     <footer className="bg-[#0f172a] text-gray-300 border border-gray-700 rounded-t-xl">
       
       {/* Main Footer */}
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
 
           {/* About */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-1">
             
             {/* Logo - Tailwind logo nahi */}
             <div className="flex items-center gap-3 mb-5">
@@ -190,3 +191,139 @@ const Footer = () => {
 
 export default Footer;
 
+
+// export default function Footer() {
+//   return (
+//     <footer className="bg-[#0b0f19] text-gray-300 py-12 px-6 lg:px-16">
+//       {/* Main Grid Container */}
+//       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+        
+//         {/* Column 1: Brand Info */}
+//         <div className="lg:col-span-1 space-y-4">
+//           <div className="flex items-center space-x-3">
+//             <span className="bg-indigo-600 text-white font-bold px-3 py-1.5 rounded-md">NN</span>
+//             <span className="text-white font-semibold text-lg">Nusrat Nisar</span>
+//           </div>
+//           <p className="text-sm text-gray-400">
+//             Making the world a better place through constructing elegant hierarchies.
+//           </p>
+//           <div className="text-sm text-gray-300 space-y-1">
+//             <p>📞 03332327952</p>
+//             <p>✉️ malaikanisar67@gmail.com</p>
+//           </div>
+//         </div>
+
+//         {/* Column 2: Solutions */}
+//         <div>
+//           <h4 className="text-white font-semibold mb-4">Solutions</h4>
+//           <ul className="space-y-2 text-sm text-gray-400">
+//             <li><a href="#" className="hover:text-white">Marketing</a></li>
+//             <li><a href="#" className="hover:text-white">Analytics</a></li>
+//             <li><a href="#" className="hover:text-white">Automation</a></li>
+//             <li><a href="#" className="hover:text-white">Commerce</a></li>
+//             <li><a href="#" className="hover:text-white">Insights</a></li>
+//           </ul>
+//         </div>
+
+//         {/* Column 3: Support */}
+//         <div>
+//           <h4 className="text-white font-semibold mb-4">Support</h4>
+//           <ul className="space-y-2 text-sm text-gray-400">
+//             <li><a href="#" className="hover:text-white">Submit Ticket</a></li>
+//             <li><a href="#" className="hover:text-white">Documentation</a></li>
+//             <li><a href="#" className="hover:text-white">Guides</a></li>
+//             <li><a href="#" className="hover:text-white">FAQ</a></li>
+//           </ul>
+//         </div>
+
+//         {/* Column 4: Company */}
+//         <div>
+//           <h4 className="text-white font-semibold mb-4">Company</h4>
+//           <ul className="space-y-2 text-sm text-gray-400">
+//             <li><a href="#" className="hover:text-white">About</a></li>
+//             <li><a href="#" className="hover:text-white">Blog</a></li>
+//             <li><a href="#" className="hover:text-white">Jobs</a></li>
+//             <li><a href="#" className="hover:text-white">Press</a></li>
+//           </ul>
+//         </div>
+
+//         {/* Column 5: Legal (Ab ye baaki columns ke sath line mein aa gaya hai) */}
+//         <div>
+//           <h4 className="text-white font-semibold mb-4">Legal</h4>
+//           <ul className="space-y-2 text-sm text-gray-400">
+//             <li><a href="#" className="hover:text-white">Terms of Service</a></li>
+//             <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
+//             <li><a href="#" className="hover:text-white">License</a></li>
+//           </ul>
+//         </div>
+  
+//            <div className="flex gap-4 mt-7">
+
+//              {/* Facebook */}
+//              <a
+//                  href="https://www.facebook.com"
+//                  target="_blank"
+//                  rel="noopener noreferrer"
+//                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-purple-600 hover:text-white transition font-bold"
+//                  title="Facebook"
+//                >
+//                  f
+//                </a>
+
+//                {/* Instagram */}
+//                <a
+//                  href="https://www.instagram.com"
+//                  target="_blank"
+//                  rel="noopener noreferrer"
+//                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-purple-600 hover:text-white transition"
+//                  title="Instagram"
+//                >
+//                  ◎
+//                </a>
+
+//                {/* Twitter / X */}
+//                <a
+//                  href="https://twitter.com"
+//                  target="_blank"
+//                  rel="noopener noreferrer"
+//                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-purple-600 hover:text-white transition font-bold"
+//                 title="Twitter"
+//               >
+//                X
+//               </a>
+
+//              {/* LinkedIn */}
+//              <a
+//                href="https://www.linkedin.com"
+//                target="_blank"
+//                rel="noopener noreferrer"
+//                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-purple-600 hover:text-white transition font-bold"
+//                title="LinkedIn"
+//              >
+//                in
+//              </a>
+
+//              {/* YouTube */}
+//              <a
+//                href="https://www.youtube.com"
+//                  target="_blank"
+//                rel="noopener noreferrer"
+//                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-purple-600 hover:text-white transition"
+//                 title="YouTube"
+//               >
+//                  ▶
+//                </a>
+
+//            </div>
+         
+     
+
+//       {/* Bottom Copyright Bar */}
+//       <div className="max-w-7xl mx-auto border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
+//         <p>&copy; 2026 Nusrat Nisar. All rights reserved.</p>
+//       </div>
+//        </div>
+//     </footer>
+    
+//   );
+// }
